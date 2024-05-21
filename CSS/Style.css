@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: #f792e9;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#form_box{
+    margin: auto;
+    width: max-content;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+#form_box h2{
+    padding: 10px;
+    text-align: center;
+    color: #ef5757;
+}
+
+.f_line{
+    display: flex;
+}
+
+.f_line span{
+    padding: 10px;
+}
+
+.f_line label{
+    display: block;
+    padding-bottom: 2px;
+    font-weight: bolder;
+    color: #ef5757;
+}
+
+.f_line input[type=text], input[type=date], input[type=password], select{
+    width: 250px;
+    height: 30px;
+    border: 1px solid #151414;
+    border-radius: 5px;
+}
+
+.f_line input[type=file]{
+    width: 520px;
+    height: 20px;
+    border: 1px solid #151414;
+    border-radius: 5px;
+
+}
+
+#btt_form{
+    cursor: pointer;
+    width: 531px;
+    height: 35px;
+    background-color: #f792e9;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    transition: 0.5s;
+
+}
+
+#btt_form:hover{
+    transition: 0.5s;
+    background-color: #ef5757;
+}
+
+#f_alert{
+    display: none;
+    background-color: #f51515;
+    padding: 12px;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+}
